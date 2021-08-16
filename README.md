@@ -28,7 +28,7 @@ Usage:
 7. restart every 24h
 
 tips-and-tricks:
-1. make use of colocation
+1. make use of colocation (AWS Asia Pacific (Tokyo) Region)
 2. automated restart based on CPU usage (if high, the websockets are down)
 
 
