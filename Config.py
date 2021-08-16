@@ -29,8 +29,8 @@ MaxOrderValue=100
 MaxLiquidationValue=100
 
 # Minimum collateral of spot
-minimumCollateral=0.1
+minimumCollateral=0
 
 # Volume requirement for spot lending
-volume_requirement=10000000
+volume_requirement=1000000
 
