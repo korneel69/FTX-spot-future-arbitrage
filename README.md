@@ -10,13 +10,21 @@ Relative pricing is key here. Keep it in mind when configuring the buy and sell 
 
 This makes it so that a profit can be generated from 1. the price difference between the perpetual future contract and the spot and the funding payments.
 
+The bot executes this strategy for each available spot-(perpetual)future pair. It takes into account:
+- spread
+- volume
+- collateral
+- balance
+- leverage used
+
 Usage:
 1. pip install -r requirements.txt
 2. generate an external api key with external program 'deltazerotrades' from FTX (https://ftx.com/en/external-program-api-keys)
 3. make a dedicated subaccount for the bot on FTX
 4. config the config file (config as-is should be profitable)
-5. start trading
-6. restart every 24h
+5. set leverage on the dedicated subaccount equal or greater than the max leverage in the config file)
+6. start trading
+7. restart every 24h
 
 tips-and-tricks:
 1. make use of colocation
