@@ -5,7 +5,7 @@ subaccount_name='XXX'
 external_api_key="2FUmI45_XVwSxyx1xxxxxxx"
 external_api_secret="a_mO0kIt8xxxxxxxxxxx"
 
-# RatioBid levels the bot builds a position at (lindked to leverage levels)
+# Remember relative prices. RatioBid levels the bot builds a position at. The higher the leverage the subaccount currently uses, the higher we want the payoff to be to take on extra risk.
 RatioThreshold=1.002
 RatioThreshold2=1.006
 RatioThreshold3=1.008
