@@ -25,8 +25,8 @@ LiquidationRatioThreshold2=0.9965
 PriceDiscount=1.001
 
 # Maximum USD order value
-MaxOrderValue=1500
-MaxLiquidationValue=1500
+MaxOrderValue=100
+MaxLiquidationValue=100
 
 # Minimum collateral of spot
 minimumCollateral=0.1
