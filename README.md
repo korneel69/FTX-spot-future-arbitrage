@@ -8,7 +8,7 @@ Relative pricing is key here. Keep it in mind when configuring the buy and sell 
 1. If the price of a futures contract is higher than the price of spot, the bot will proceed to sell the future and buy the spot.
 2. If the price of a futures contract is lower than the price of spot, the bot will proceed to buy the future and sell the spot. (only if spot is available)
 
-This makes it so that a profit can be generated from 1. the price difference between the perpetual future contract and the spot and the funding payments.
+This makes it so that a profit can be generated from 1) the price difference between the perpetual future contract and the spot and 2) the funding payments.
 This article explains it better than me: https://medium.com/coinmonks/spot-futures-arbitrage-strategy-earn-15-50-apr-with-extremely-low-risk-3b230949f103
 
 The bot executes this strategy for each available spot-(perpetual)future pair. It takes into account:
