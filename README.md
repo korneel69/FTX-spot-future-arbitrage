@@ -17,6 +17,7 @@ The bot executes this strategy for each available spot-(perpetual)future pair. I
 - collateral
 - balance
 - leverage used
+- pair exlusion option
 
 Usage:
 1. pip install -r requirements.txt
