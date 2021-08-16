@@ -12,7 +12,7 @@ This makes it so that a profit can be generated from 1. the price difference bet
 
 Usage:
 1. pip install -r requirements.txt
-2. generate an external api key from FTX (https://ftx.com/en/external-program-api-keys)
+2. generate an external api key with external program 'deltazerotrades' from FTX (https://ftx.com/en/external-program-api-keys)
 3. make a dedicated subaccount for the bot on FTX
 4. config the config file (config as-is should be profitable)
 5. start trading
