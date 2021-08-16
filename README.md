@@ -1,4 +1,4 @@
-Spot-Future arbitrage on FTX exchange
+**Spot-Future arbitrage on FTX exchange**
 
 This is an automated trading bot. First and for most, use at your own risk.
 The bot makes use of a popular trading strategy: spot-future arbitrage.
