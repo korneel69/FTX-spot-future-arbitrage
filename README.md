@@ -27,7 +27,7 @@ Risks involved:
 
 Usage:
 1. pip install -r requirements.txt
-2. generate an external api key with external program 'deltazerotrades' from FTX (https://ftx.com/en/external-program-api-keys)
+2. generate an external api key with external program 'deltazerotrades' from FTX (https://ftx.com/en/external-program-api-keys/#a=5640095)
 3. make a dedicated subaccount for the bot on FTX
 4. config the config file (config as-is should be profitable)
 5. set leverage on the dedicated subaccount equal or greater than the max leverage in the config file)
