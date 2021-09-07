@@ -245,9 +245,10 @@ class FtxClient:
             self.externalRefProgram=i['externalReferralProgram']
             if self.externalRefProgram=='deltazerotrades':
                 self.referral_api_key=i['key']
-        if self.referral_api_key==external_api_key:
-            print('API keys accepted')
-        else:
+        try:
+            if self.referral_api_key==external_api_key:
+                print('API keys accepted')
+        except:
             raise Exception("Please check for the correct external_api_key and external_api_secret in config file. New 'deltazerotrades' keys can be generated from https://ftx.com/en/external-program-api-keys")
 
     #
