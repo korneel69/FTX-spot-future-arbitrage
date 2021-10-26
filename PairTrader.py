@@ -32,10 +32,15 @@ class PairTrader():
         elif self._future.split('-')[1]!='PERP':
             print('PERP error')
             raise Exception('PERP error')
-        if self._future.split('-')[0]=='OKB':
+        elif self._future.split('-')[0]=='OKB':
             print('OKB Exception')
             raise Exception('OKB exception')
-
+        elif self._future.split('-')[0]=='LEO':
+            print('LEO Exception')
+            raise Exception('LEO exception')
+        elif self._future.split('-')[0]=='TRYB':
+            print('TRYB Exception')
+            raise Exception('TRYB exception')
     # Checks balances (spot) and positions (future) and calculates the difference (_balanceDifference)
     # This is used in the make_balancing_order function and can inhibit further positions to be build
     def check_balance(self):
@@ -198,6 +203,7 @@ class PairTrader():
         self.test_result=True
 
 
+
     def go_trade(self):
         self.client_socket=FtxWebsocketClient()
         self.client_socket.connect()
@@ -243,7 +249,7 @@ class PairTrader():
                 make_balancing_order(self)
 
                 # Make Market Maker move
-                
+                #basicMarketMakingFunction(self)
 
                 try:
                     # Update leverage again
