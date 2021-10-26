@@ -65,9 +65,6 @@ class HoofdTrader:
             trader_list.append(g)
         self.trader_list=trader_list
 
-    def validate_referral(self):
-        client.validate_referral()
-
 # HoofdTrader spins up child processes to handle each pair
 if __name__=='__main__':
 
@@ -76,7 +73,6 @@ if __name__=='__main__':
     jef.fetch_data()
     jef.find_future_symbols()
     jef.find_spot_symbols()
-    jef.validate_referral()
     jef.make_spot_usd()
     jef.match_spot_future()
     jef.allocate_pairs()
