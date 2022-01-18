@@ -27,12 +27,13 @@ Risks involved:
 
 Usage:
 1. pip install -r requirements.txt
-2. generate an external api key with external program 'deltazerotrades' from FTX (https://ftx.com/en/external-program-api-keys/#a=5640095)
-3. make a dedicated subaccount for the bot on FTX
-4. config the config file (config as-is should be profitable)
-5. set leverage on the dedicated subaccount equal or greater than the max leverage in the config file)
-6. start trading
-7. restart every 24h
+2. Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+3. generate an external api key with external program 'deltazerotrades' from FTX (https://ftx.com/en/external-program-api-keys/#a=5640095)
+4. make a dedicated subaccount for the bot on FTX
+5. config the config file (config as-is should be profitable)
+6. set leverage on the dedicated subaccount equal or greater than the max leverage in the config file)
+7. start trading
+8. restart every 24h
 
 tips-and-tricks:
 1. make use of colocation (AWS Asia Pacific (Tokyo) Region)
